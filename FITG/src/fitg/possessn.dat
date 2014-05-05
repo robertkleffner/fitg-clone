@@ -1,0 +1,22 @@
+Weapon, High Energy Sniper's Rifle, irifle.gif, stat1, stat2,
+Weapon, Assassin's Blade, iblade.gif, stat3, stat4, stat5,
+Object, Helian Drug, idrug.gif, stat6, stat7,
+Object, Scanner, iscanner.gif, stat8, stat9,
+Object, Scrambler, iscrambl.gif, stat10, stat11, stat12, stat13,
+Object, Medi-kit of Ptolus, imedkit.gif, stat14, stat15,
+Object, Personal Body Shield, ishield.gif, stat16,
+Object, Cache of Rare Gems, igems.gif, stat17, stat18, stat19,
+Companion, Cervac MK V, icervac.gif, stat20, stat21, stat22,
+Companion, Norrocks, inorocks.gif, stat23, stat24, stat25, stat26,
+Companion, Charsot, icharsot.gif, stat27, stat28, stat29,
+Companion, Advisor Android, iadvisor.gif, stat30, stat31, stat32,
+Spaceship, Explorer,iship.gif,2,2,4,8,Ly Mantock
+Spaceship, Interstellar Sloop,iship.gif,2,1,2,4
+Spaceship, S-XIII,iship.gif,0,4,6,5
+Spaceship, Planetary Privateer,iship.gif,3,2,3,6,Boccanegra
+Spaceship, Star Cruiser,iship.gif,1,2,2,10
+Spaceship, Redjac's spaceship,iship.gif,2,3,4,4,Redjac
+Spaceship, Imperial spaceship,iship.gif,1,1,2,4
+Spaceship, Galactic Freighter,iship.gif,0,1,0,16
+Spaceship, Solar Merchant,iship.gif,0,1,1,14,Tourag
+Spaceship, Stellar Courier,iship.gif,2,3,4,4

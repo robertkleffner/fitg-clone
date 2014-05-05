@@ -1,0 +1,61 @@
+# This file is used to Initialize the Flight To Egrix game scenario
+# Each segment is started with a word and then ends with %
+# All of the lines In between these two symbols are processed
+# as game board initialization. 
+#
+# The first segment contains scenario title, type, game turns, and victory pts.
+gametype,STARSYSTEM
+scenario,Flight to Egrix
+#Start Rebellion
+turns,6
+vp,12
+%
+# The third segment is Characters. One character is entered per line.
+# Initial location (e.g. environ) is specified as a third field,
+# otherwise the character starts from space. The syntax is
+# PlayerOwner,CharacterName,[location]
+#characters
+Rebel,Boccanegra,30
+Rebel,Doctor Sontag,30
+Rebel,Frun Sentel,30
+Imperial,Vans Ka-Tie-A,30
+Imperial,Jon Kidu,30
+%
+# the fourth segment is used for the planet state:
+# PDB's, Planet control state, Planet controller, and loyalty
+# one planet is entered per line.
+# give the PlanetName,PDBLevel,Up or Down,ImperialControl or 
+# RebelControl or Rebellion or RebellionStopped,PlayerControllingPlanet,
+# and Integer loyalty marker value
+#planets
+Quibron,1,Up,ImperialControl,IMPERIAL,Dissent,
+Angoff,2,Up,ImperialControl,IMPERIAL,Neutral,
+Charkhan,0,Up,ImperialControl,IMPERIAL,Unrest,
+%
+# The fifth segemnt is used to place units.
+# Enter one unit per line as follows.6
+# PlayerOwner,UnitType,EnvironCombatStrength,
+# SpaceCombatStrength,Mobil = 1 or Not Mobil = 0
+#units
+IMPERIAL,Line,3,2,29,true
+IMPERIAL,Patrol,1,2,29,true
+IMPERIAL,Patrol,1,2,29,true
+IMPERIAL,Patrol,1,2,29,true
+IMPERIAL,Militia,0,1,29,false
+%
+# The sixth segment is used to place possessions
+# Enter one possession per line as follows.
+# PlayerOwner,CharacterOwner,PossessionType,PossessionName,
+#possessions
+Rebel,Boccanegra,SpaceShip,Planetary Privateer,
+Rebel,Boccanegra,Item,Cache of Rare Gems,
+Rebel,Frun Sentel,Weapon,Helian Drug,
+Rebel,Frun Sentel,Item,Scrambler,
+Rebel,Frun Sentel,Item,High Energy Sniper's Rifle,
+Imperial,Vans Ka-Tie-A,SpaceShip,Imperial spaceship,
+%
+# set zoom and coordinates
+zoom,1
+x,4000
+y,0
+%

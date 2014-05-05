@@ -1,0 +1,100 @@
+@startuml
+
+top to bottom direction
+
+abstract class fitg.graphics.framework.Interactive
+abstract class fitg.graphics.framework.Renderable
+class fitg.Action
+class fitg.Board << (S,#FF7700) Singleton >>
+class fitg.Character
+class fitg.Combat
+class fitg.Entity
+class fitg.Environ
+class fitg.FITG
+class fitg.GUI
+class fitg.Game << (S,#FF7700) Singleton >>
+class fitg.IOControl
+class fitg.MilitaryForce
+class fitg.Mission
+class fitg.Movement
+class fitg.Operations
+class fitg.Parsers
+class fitg.Planet
+class fitg.Player
+class fitg.Possession
+class fitg.Province
+class fitg.ScenarioLoader
+class fitg.SearchResults
+class fitg.Ship
+class fitg.Stack
+class fitg.StackList
+class fitg.StarSystem
+class fitg.Tables
+class fitg.Turn
+class fitg.graphics.ArcButton
+class fitg.graphics.ColorDictionary
+class fitg.graphics.ImmovableSprite
+class fitg.graphics.Star
+class fitg.graphics.SystemCreator
+class fitg.graphics.framework.Camera
+class fitg.graphics.framework.RenderViewport
+enum fitg.EntityType
+enum fitg.GAMETYPE
+enum fitg.Phase
+enum fitg.SIDE
+enum fitg.graphics.ButtonLocation
+fitg.graphics.framework.Interactive --|> fitg.graphics.framework.Renderable
+fitg.Board --* fitg.IOControl
+fitg.Board --* fitg.StackList
+fitg.Board --* fitg.Tables
+fitg.Board --o fitg.Environ
+fitg.Board --o fitg.Province
+fitg.Character --|> fitg.Entity
+fitg.Character --* fitg.Ship
+fitg.Entity --* fitg.EntityType
+fitg.FITG ..> fitg.Game: Runs
+fitg.Game --* fitg.Board
+fitg.Game --* fitg.GAMETYPE
+fitg.Game --* fitg.Parsers
+fitg.Game --* fitg.ScenarioLoader
+fitg.Game --* fitg.Turn
+fitg.Game --o fitg.Character
+fitg.Game --o fitg.Possession
+fitg.GUI ..o fitg.Mission: Initializes
+fitg.GUI ..> fitg.graphics.ImmovableSprite
+fitg.GUI ..> fitg.graphics.SystemCreator: Creates
+fitg.GUI ..> fitg.graphics.framework.RenderViewport: Creates
+fitg.GUI ..> fitg.Turn: Manages
+fitg.MilitaryForce --|> fitg.Entity
+fitg.Mission --o fitg.Mission
+fitg.Mission ..> fitg.Action: Uses
+fitg.Planet --|> fitg.graphics.framework.Interactive
+fitg.Planet --o fitg.Environ
+fitg.Planet ..> fitg.SIDE: Controlled by
+fitg.Player --o fitg.Ship
+fitg.Province --o fitg.StarSystem
+fitg.ScenarioLoader ..> fitg.MilitaryForce: Initializes
+fitg.SearchResults ..> fitg.Operations
+fitg.Ship --|> fitg.Possession
+fitg.Stack --o fitg.Entity
+fitg.Stack --* fitg.SIDE
+fitg.StackList --o fitg.Stack
+fitg.StackList --o fitg.MilitaryForce: Creates
+fitg.StarSystem --o fitg.Planet
+fitg.Turn --* fitg.Operations
+fitg.Turn --* fitg.Phase
+fitg.Turn --o fitg.Player: Manages
+fitg.graphics.ArcButton --|> fitg.graphics.framework.Interactive
+fitg.graphics.ArcButton --* fitg.graphics.ButtonLocation
+fitg.graphics.ArcButton *--* fitg.Environ
+fitg.graphics.ArcButton --* fitg.Planet
+fitg.graphics.ArcButton ..> fitg.graphics.ColorDictionary: Uses
+fitg.graphics.ArcButton ..> fitg.Movement: Uses
+fitg.graphics.ImmovableSprite --|> fitg.graphics.framework.Renderable
+fitg.graphics.Star --|> fitg.graphics.framework.Interactive
+fitg.graphics.SystemCreator ..> fitg.Planet: Creates
+fitg.graphics.SystemCreator ..> fitg.graphics.Star: Creates
+fitg.graphics.SystemCreator ..> fitg.StarSystem: Initializes
+fitg.graphics.framework.RenderViewport --o fitg.graphics.framework.Renderable
+fitg.graphics.framework.RenderViewport ..> fitg.graphics.framework.Camera: Manages
+@enduml

@@ -1,0 +1,10 @@
+compile.on.save=true
+do.depend=false
+do.jar=true
+file.reference.miglayout-4.0-swing.jar=C:\\Users\\Charlie\\Desktop\\ sejava-code\\FITG\\miglayout-4.0-swing.jar
+file.reference.miglayout-4.0-swing.jar-1=C:\\Users\\Charlie\\Desktop\\ sejava-code\\FITG\\miglayout-4.0-swing.jar
+file.reference.miglayout-4.0-swing.jar-2=C:\\Users\\Charlie\\Desktop\\ sejava-code\\FITG\\miglayout-4.0-swing.jar
+file.reference.miglayout-4.0-swing.jar-3=C:\\Users\\Charlie\\Desktop\\ sejava-code\\FITG\\miglayout-4.0-swing.jar
+javac.debug=true
+javadoc.preview=true
+user.properties.file=C:\\Users\\Eric Doman\\AppData\\Roaming\\NetBeans\\7.4\\build.properties

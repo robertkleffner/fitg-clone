@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/nbproject/project.xml</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/build.xml</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/MilitaryDamageMenu.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/DamageMenu.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/StackList.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/Entity.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/Mission.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/Combat.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/SearchResults.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/SearchMenu.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/Search.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/CombatCreature.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/framework/Camera.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/framework/Interactive.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/framework/Renderable.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/ImmovableSprite.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/ColorDictionary.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/Sprite.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/Planet.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/Star.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/SystemCreator.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/graphics/ArcButton.java</file>
+        <file>file:/C:/Users/Cyborg/Documents/fall2013/code/FITG/src/fitg/StarSystem.java</file>
+    </open-files>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Eric%20Doman/Desktop/CS383/FITG/FITG/src/fitg/SearchResults.java</file>
+            <file>file:/C:/Users/Eric%20Doman/Desktop/CS383/FITG/FITG/src/fitg/SearchMenu.java</file>
+        </group>
+    </open-files>
+</project-private>

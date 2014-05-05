@@ -1,0 +1,51 @@
+#
+#
+# This file is used to initialize the varu game scenario
+#
+gametype,STARSYSTEM
+scenario,The Varu Powderkeg
+#Start Rebellion
+turns,2
+vp,20
+%
+#characters
+Rebel,Vudot Vodot,65
+Rebel,Zina Adora,65
+Rebel,Kogus,65
+Rebel,Rayner Derban,65
+Imperial,Redjac,65
+Imperial,Gelba,65
+Rebel, Ly Mantok, 64
+Rebel, Odene Hobar, 64
+Imperial, Vans Ka-Tie-A, 64
+Imperial, Redjac, 64
+%
+#planets
+Solvia,2,Up,ImperialControl,IMPERIAL,Loyal,
+Horon,1,Up,ImperialControl,IMPERIAL,Neutral,
+Cercis,1,Up,RebelControl,REBEL,Patriotic,
+%
+#units
+REBEL,Subterranean,2,1,65,false
+REBEL,Wild,2,1,65,false
+REBEL,Wild,2,1,65,false
+IMPERIAL,Line,3,2,65,true
+IMPERIAL,Line,3,2,65,true
+IMPERIAL,Line,3,2,65,true
+IMPERIAL,Militia,0,1,65,false
+IMPERIAL,Militia,0,1,65,false
+IMPERIAL,Militia,0,1,65,false
+IMPERIAL,Militia,0,1,64,false
+IMPERIAL,Militia,0,1,64,false
+IMPERIAL,Militia,0,1,64,false
+%
+#possessions
+REBEL,Zina Adora,spaceship,Star Cruiser,
+IMPERIAL,Redjac,spaceship,RedJac's Spaceship,
+IMPERIAL,Gelba,spaceship,Imperial spaceship,
+%
+# set zoom and coordinates
+zoom,1
+x,0
+y,3000
+%
